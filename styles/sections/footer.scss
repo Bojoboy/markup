@@ -1,0 +1,79 @@
+.footer { 
+
+	h2 {
+	  font-family: Arial;
+	  font-size: 14px;
+	  font-weight: normal;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: 1.5;
+	  letter-spacing: normal;
+	  color: darken($gray, 20%);
+	  text-transform: uppercase;
+	}
+
+	p {
+		font-family: Arial;
+	  font-size: 12px;
+	  font-weight: normal;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: 1.5;
+	  letter-spacing: normal;
+	  color: $dark-gray;
+	}
+
+	a {
+		color: darken($gray, 40%);
+	}
+}
+
+.footer {
+	background: url(./images/footer.jpg);
+	height: 298px;
+	position: relative;
+}
+
+.footer-container {
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	
+	.footer-item {
+		// align-self: baseline;
+		flex-basis: 25%;
+		height: 200px;
+	}
+}
+
+.bottom-footer {
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	height: 69px;
+	width: 100%;
+	border: solid 1px lighten($black, 3%);
+  background-color: $black-bg;
+
+  p {
+  	font-family: Arial;
+	  font-size: 12px;
+	  font-weight: normal;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: 1.33;
+	  letter-spacing: normal;
+	  color: $dark-gray;
+  }
+}

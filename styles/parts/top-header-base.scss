@@ -1,0 +1,43 @@
+.top-header-base {
+  height: 78px;
+  background-color: $gray-bg;
+}
+
+.top-header-content {
+	display: flex;
+
+	.logo {
+		width: 170px;
+	  height: 78px;
+	  background-color: $akcent;
+	  display: flex;
+		justify-content: center;
+		align-items: center;
+
+		a {
+		  font-family: Arial;
+		  font-size: 38px;
+		  font-weight: normal;
+		  font-style: normal;
+		  font-stretch: normal;
+		  line-height: 0.42;
+		  letter-spacing: normal;
+		  color: $white;
+	  }
+	}
+
+	.social-media {
+		align-self: center;
+		margin-left: auto;
+	}
+}
+
+.fab {
+	font-size: 30px;
+	color: $light-gray;
+	
+	&:hover {
+		color: $blue;
+	}
+}
+

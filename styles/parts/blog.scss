@@ -1,0 +1,49 @@
+.blog-container h2 {
+  height: 17px;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+  color: $dark-gray;
+}
+
+.blog-container p {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.58;
+  letter-spacing: normal;
+  color: $dark-gray;
+}
+
+.blog-container {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.blog-item {
+	flex-basis: 33%;
+
+	img {
+		max-width: 100%;
+	 //  height: 217px;
+	}
+
+	figure {
+		margin: 20px 5px;
+	}
+
+	figcaption {
+		padding: 10px;
+	}
+}
+
+
